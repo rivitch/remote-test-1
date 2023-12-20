@@ -183,5 +183,28 @@ Writing objects: 100% (3/3), 271 bytes | 271.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/rivitch/remote-test-2.git
    70e1e2d..cba0a3b  main -> main
+PS D:\GB\GIT\remote-test-1> git add .
+PS D:\GB\GIT\remote-test-1> git commit -m "add change to1,2"
+[main b18679e] add change to1,2
+ 1 file changed, 187 insertions(+)
+PS D:\GB\GIT\remote-test-1> git push -u origin2 main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.03 KiB | 2.03 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rivitch/remote-test-2.git
+   cba0a3b..b18679e  main -> main
 branch 'main' set up to track 'origin2/main'.
-PS D:\GB\GIT\remote-test-1> 
+PS D:\GB\GIT\remote-test-1> git push -u origin1 main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 2.03 KiB | 2.03 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/rivitch/remote-test-1.git
+   cba0a3b..b18679e  main -> main
+branch 'main' set up to track 'origin1/main'.
+PS D:\GB\GIT\remote-test-1>
